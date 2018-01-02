@@ -14,3 +14,22 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/admin', function () {
+    return view('pages.dashboard');
+})->name('dashboard');
+
+Route::get('/admin/upload', function () {
+    return view('pages.upload');
+})->name('upload');
+
+Route::get('/admin/offline', function () {
+    return view('pages.offline');
+})->name('offline');
+
+Route::get('/admin/laporan', function () {
+    return view('pages.laporan');
+})->name('laporan');
+
+
+

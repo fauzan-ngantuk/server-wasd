@@ -78,8 +78,9 @@
             @endif
 
             <div class="content">
+                <img src="{{ url('/img/logo.png') }}" style="width: 200px; margin-bottom: 50px">
                 <div class="title m-b-md">
-                    Laravel
+                    Welcome Laravel
                 </div>
 
                 <div class="links">
