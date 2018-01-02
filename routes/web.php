@@ -31,5 +31,34 @@ Route::get('/admin/laporan', function () {
     return view('pages.laporan');
 })->name('laporan');
 
+Route::get('/home', function () {
+    return view('pages.user.home');
+})->name('home');
 
+Route::get('/home', function () {
+    return view('pages.user.home');
+})->name('home');
 
+Route::get('/cart', function () {
+    return view('pages.user.cart');
+})->name('cart');
+
+Route::get('/checkout', function () {
+    return view('pages.user.checkout');
+})->name('checkout');
+
+Route::get('/register', function () {
+    return view('pages.user.register');
+})->name('register');
+
+Route::get('/product', function () {
+    return view('pages.user.product');
+})->name('product');
+
+Route::get('/productdetail', function () {
+    return view('pages.user.productdetail');
+})->name('productdetail');
+
+Route::get('/contact', function () {
+    return view('pages.user.contact');
+})->name('contact');
