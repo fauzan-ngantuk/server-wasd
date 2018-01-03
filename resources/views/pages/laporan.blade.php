@@ -43,7 +43,6 @@
                     <td>Rp. 50.000</td>
                     <td>Rp. 50.000</td>
                   </tr>
-
                   <tr>
                     <td>2</td>
                     <td>Deshmukh</td>
