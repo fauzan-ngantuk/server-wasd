@@ -81,13 +81,13 @@
                 <a href="{{ route('dashboard') }}" class="waves-effect"><i class="fa fa-clock-o m-r-10" aria-hidden="true"></i>Dashboard</a>
               </li>
               <li>
-                <a href="{{ route('upload') }}" class="waves-effect"><i class="fa fa-cloud-upload m-r-10" aria-hidden="true"></i>Upload</a>
+                <a href="{{ route('order') }}" class="waves-effect"><i class="fa fa-cloud-upload m-r-10" aria-hidden="true"></i>Order</a>
               </li>
               <li>
-                <a href="{{ route('offline') }}" class="waves-effect"><i class="fa fa-shopping-cart m-r-10" aria-hidden="true"></i>Offline</a>
+                <a href="{{ route('laporan') }}" class="waves-effect"><i class="fa fa-shopping-cart m-r-10" aria-hidden="true"></i>Laporan Pesanan</a>
               </li>
               <li>
-                <a href="{{ route('laporan') }}" class="waves-effect"><i class="fa fa-table m-r-10" aria-hidden="true"></i>Laporan</a>
+                <a href="{{ route('transaksi') }}" class="waves-effect"><i class="fa fa-table m-r-10" aria-hidden="true"></i>Transaksi</a>
               </li>
               <li>
                 <a href="{{ route('barang.index') }}" class="waves-effect"><i class="fa fa-cube m-r-10" aria-hidden="true"></i>Barang</a>
@@ -137,5 +137,6 @@
     <!-- Style switcher -->
     <!-- ============================================================== -->
     <script src="{{ url('/plugins/styleswitcher/jQuery.style.switcher.js') }}"></script>
+    @yield('js')
 </body>
 </html>

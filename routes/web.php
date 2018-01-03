@@ -15,24 +15,25 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/admin', 'admin\DashboardController@index')->name('dashboard');
+Route::get('/admin/order', 'admin\OrderController@index')->name('order');
+Route::get('/admin/transaksi', 'admin\LaporanTransaksiController@index')->name('transaksi');
+Route::get('/admin/laporan', 'admin\LaporanPesananController@index')->name('laporan');
 Route::resource('admin/jenis_barang', 'admin\JenisBarangController');
 Route::resource('admin/barang', 'admin\BarangController');
 
-Route::get('/admin', function () {
-    return view('pages.dashboard');
-})->name('dashboard');
+Route::get('/admin/login', function (){
+    return view('pages.admin.login');
+})->name('adminlogin');
 
-Route::get('/admin/upload', function () {
-    return view('pages.upload');
-})->name('upload');
+Route::post('/loginadmin', 'LoginAdminController@index');
+Route::post('/transaksi', 'TransaksiController@store');
+Route::post('/transaksi/update/{id}', 'TransaksiController@update');
+Route::post('/download/{transaksi}', 'DownloadController@index');
 
-Route::get('/admin/offline', function () {
-    return view('pages.offline');
-})->name('offline');
-
-Route::get('/admin/laporan', function () {
-    return view('pages.laporan');
-})->name('laporan');
+// Route::get('/admin', function () {
+//     return view('pages.dashboard');
+// })->name('dashboard');
 
 Route::get('/home', function () {
     return view('pages.user.home');

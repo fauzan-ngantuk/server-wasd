@@ -32,7 +32,7 @@
                             <tr>
                                 <td>{{ ++$no }}</td>
                                 <td>{{ $barang->nama }}</td>
-                                <td>{{ $barang->deskripsi }}</td>
+                                <td width=40%>{{ $barang->deskripsi }}</td>
                                 <td>{{ $barang->harga_satuan }}</td>
                                 <td><img src="{{ $barang->gambar }}" style="height: 50px" /></td>
                                 <td>{{ $barang->jenisbarang->nama }}</td>
