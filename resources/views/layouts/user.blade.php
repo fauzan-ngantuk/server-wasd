@@ -57,7 +57,7 @@
 				</div>
 				<div class="span5">
 					<p class="logo"><img src="{{ url('/img/wasd.png') }}" class="site_logo" alt=""></p>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. the  Lorem Ipsum has been the industry's standard dummy text ever since the you.</p>
+					<p>WASD's goal has always been to provide all customers the trendiest and awesome products around the world. We travel to find unique products and share them daily at low cost.</p>
 					<br/>
 					<span class="social_icons">
 						<a class="facebook" href="#">Facebook</a>
