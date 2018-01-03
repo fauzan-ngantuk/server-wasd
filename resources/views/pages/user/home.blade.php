@@ -47,17 +47,7 @@
 														<a href="{{ route('productdetail') }}" class="title">Ut wisi enim ad</a><br/>
 														<a href="products.html" class="category">Commodo consequat</a>
 														<p class="price">$17.25</p>
-													</div>
-												</li>
-												<li class="span3">
-													<div class="product-box">
-														<span class="sale_tag"></span>
-														<p><a href="{{ route('productdetail') }}"><img src="themes/images/ladies/2.jpg" alt="" /></a></p>
-														<a href="{{ route('productdetail') }}" class="title">Quis nostrud exerci tation</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
-														<p class="price">$32.50</p>
-													</div>
-												</li>																																
+													</div>												
 											</ul>
 										</div>
 									</div>							
@@ -84,14 +74,6 @@
 														<a href="{{ route('productdetail') }}" class="title">Ut wisi enim ad</a><br/>
 														<a href="products.html" class="category">Commodo consequat</a>
 														<p class="price">$25.50</p>
-													</div>
-												</li>
-												<li class="span3">
-													<div class="product-box">
-														<p><a href="{{ route('productdetail') }}"><img src="themes/images/cloth/bootstrap-women-ware1.jpg" alt="" /></a></p>
-														<a href="{{ route('productdetail') }}" class="title">Quis nostrud exerci tation</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
-														<p class="price">$17.55</p>
 													</div>
 												</li>					
 											</ul>
