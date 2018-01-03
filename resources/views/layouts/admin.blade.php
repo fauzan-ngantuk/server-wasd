@@ -62,11 +62,11 @@
             <!-- ============================================================== -->
             <!-- User profile and search -->
             <!-- ============================================================== -->
-            <ul class="navbar-nav my-lg-0">
+            {{--  <ul class="navbar-nav my-lg-0">
               <li class="navbar navbar-item dropdown">
-                 <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="pages-profile.html" ><img src="{{ url('/img/users/wasd.png') }}" alt="user" class="profile-pic m-r-5" />Admin WASD Clothing</a>
+                 <a class="nav-link dropdown-toggle text-muted waves-effect white"><img src="{{ url('/img/users/wasd.png') }}" alt="user" class="profile-pic m-r-5" />Admin WASD Clothing</a>
               </li>
-            </ul>
+            </ul>  --}}
           </div>
         </nav>
       </header>
@@ -90,8 +90,11 @@
                 <a href="{{ route('laporan') }}" class="waves-effect"><i class="fa fa-table m-r-10" aria-hidden="true"></i>Laporan</a>
               </li>
               <li>
-                  <a href="{{ route('jenis_barang.index') }}" class="waves-effect"><i class="fa fa-table m-r-10" aria-hidden="true"></i>Jenis Barang</a>
-                </li>
+                <a href="{{ route('barang.index') }}" class="waves-effect"><i class="fa fa-cube m-r-10" aria-hidden="true"></i>Barang</a>
+              </li>
+              <li>
+                <a href="{{ route('jenis_barang.index') }}" class="waves-effect"><i class="fa fa-cubes m-r-10" aria-hidden="true"></i>Jenis Barang</a>
+              </li>
             </ul>              
           </nav>
           <!-- End Sidebar navigation -->

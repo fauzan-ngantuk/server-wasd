@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::resource('admin/jenis_barang', 'admin\JenisBarangController');
+Route::resource('admin/barang', 'admin\BarangController');
 
 Route::get('/admin', function () {
     return view('pages.dashboard');
