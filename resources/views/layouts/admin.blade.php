@@ -89,6 +89,9 @@
               <li>
                 <a href="{{ route('laporan') }}" class="waves-effect"><i class="fa fa-table m-r-10" aria-hidden="true"></i>Laporan</a>
               </li>
+              <li>
+                  <a href="{{ route('jenis_barang.index') }}" class="waves-effect"><i class="fa fa-table m-r-10" aria-hidden="true"></i>Jenis Barang</a>
+                </li>
             </ul>              
           </nav>
           <!-- End Sidebar navigation -->

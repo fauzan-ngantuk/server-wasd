@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('admin/jenis_barang', 'admin\JenisBarangController');
+
 Route::get('/admin', function () {
     return view('pages.dashboard');
 })->name('dashboard');
