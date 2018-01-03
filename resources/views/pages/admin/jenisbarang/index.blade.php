@@ -23,9 +23,10 @@
                 </thead>
                 <tbody>
                     @if(count($jenisbarangs) > 0)
+                        @php ($no = 0)
                         @foreach($jenisbarangs as $jenisbarang)
                             <tr>
-                                <td>{{ $jenisbarang->id }}</td>
+                                <td>{{ ++$no }}</td>
                                 <td>{{ $jenisbarang->nama }}</td>
                                 <td>
                                     <a href="/admin/jenis_barang/{{ $jenisbarang->id }}/edit" class="btn btn-success">Edit</a>
